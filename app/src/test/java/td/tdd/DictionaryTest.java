@@ -10,6 +10,6 @@ public class DictionaryTest {
     Dictionary dict = new Dictionary();
     
     @Test public void testDictionaryName() {
-        assertThat(dict.getName(), equalTo("Example"));
+        assertEquals(dict.getName(), "Example");
         }
 }
